@@ -1,61 +1,74 @@
 <!doctype html>
 <html>
-  <head>
-      <title> Suma.T </title>
-      <meta content="utf-8">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-      <link type='text/type' rel='stylesheet' href='css/stylesheet.css'/>
 
-  </head>
+<head>
+    <title> Suma.T </title>
+    <meta content="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link type='text/type' rel='stylesheet' href='css/stylesheet.css' />
 
-  <body>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="vendor/silver_track/lib/jquery-easing-1.3.0.js"></script>
+    <script src="vendor/silver_track/lib/modernizr.mediaqueries.transforms3d.js"></script>
+    <script src="vendor/silver_track/lib/responsive-hub.js"></script>
+    <script type="text/javascript" src="vendor/silver_track/src/jquery.silver_track.js" charset="utf-8"></script>
+    <script type="text/javascript" src="vendor/silver_track/src/jquery.silver_track_recipes.js" charset="utf-8"></script>
+    <script type="text/javascript" src="vendor/silver_track/src/plugins/jquery.silver_track.navigator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="vendor/silver_track/src/plugins/jquery.silver_track.bullet_navigator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="vendor/silver_track/src/plugins/jquery.silver_track.remote_content.js" charset="utf-8"></script>
+    <script type="text/javascript" src="vendor/silver_track/src/plugins/jquery.silver_track.responsive_hub_connector.js" charset="utf-8"></script>
+    <script type="text/javascript" src="vendor/silver_track/src/plugins/jquery.silver_track.css3_animation.js" charset="utf-8"></script>
+    <script type="text/javascript" src="vendor/silver_track/src/plugins/jquery.silver_track.circular_navigator.js" charset="utf-8"></script>
 
-    <!-- CONTAINER -->
+</head>
 
+<body>
 
     <nav class="navbar navbar-default my_nav">
 
-      <div class="container">
+        <div class="container">
 
-        <div class="navbar-header">
-           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
-             <span class="sr-only">Toggle navigation</span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-           </button>
-           <a class="navbar-brand" href="#">Brand</a>
-         </div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
 
-         <div class="collapse navbar-collapse" id="main-menu">
-          <ul class="nav navbar-nav open-sans-600">
-            <li class=""> <a href='google.com'>Home</a></li>
-            <li> <a href='google.com'>Our Services</a></li>
-            <li> <a href='google.com'>Contact</a></li>
-            <li> <a href='google.com'>Testimonials</a></li>
-          </ul>
+            <div class="collapse navbar-collapse" id="main-menu">
+                <ul class="nav navbar-nav open-sans-600">
+                    <li class=""> <a href='google.com'>Home</a></li>
+                    <li> <a href='google.com'>Our Services</a></li>
+                    <li> <a href='google.com'>Contact</a></li>
+                    <li> <a href='google.com'>Testimonials</a></li>
+                </ul>
+            </div>
+
         </div>
-
-      </div>
     </nav>
 
-    <div class="big-container"> <!------ start big container ---->
-    <section id='hero'>
-       <div class='row'>
-         <div id='hero-left' class='col-sm-5'>
 
-           <h2> Services for the 21th Century</h2>
-           <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec imperdiet enim. Etiam mauris magna, mattis dictum urna vel, porttitor rhoncus lectus.
-           </p>
+        <!------ start big container ---->
+        <section id='hero'>
+            <div class='row'>
+                <div id='hero-left' class='col-sm-5'>
 
-         </div>
-         <div id='hero-right' class='col-sm-7'>
-           <img src='img/student.jpg'/>
-         </div>
-       </div>
+                    <h2> Services for the 21th Century</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec imperdiet enim. Etiam mauris magna, mattis dictum urna vel, porttitor rhoncus lectus.
+                    </p>
 
-    </section>
+                </div>
+                <div id='hero-right' class='col-sm-7'>
+                    <img src='img/student.jpg' />
+                </div>
+            </div>
+
+        </section>
 
 
 
@@ -63,46 +76,128 @@
         <h2> Our Services </h2>
     </div>
     <section id='services'>
+        <div class='container'>
 
-      <div class='row'>
+        <div class='row'>
 
-        <div class='service col-sm-12 col-md-4'>
-            <img src='img/book.png'>
-            <h3 class="open-sans-400">Tutorias</h3>
-            <p>sdfsdfdsfdsfdsfdsfdsf<p>
-            <button type="button" class="btn btn-default btn-lg">
-             View</button>
+            <div class='service col-sm-12 col-md-4'>
+                <img src='img/book.png'>
+                <h3 class="open-sans-400">Tutorias</h3>
+                <p>sdfsdfdsfdsfdsfdsfdsf
+                    <p>
+                        <button type="button" class="btn btn-default btn-lg">
+                            View</button>
+            </div>
+
+            <div class='service col-sm-12 col-md-4'>
+                <img src='img/graduation-cap.png'>
+                <h3>Educacion</h3>
+                <p>BLAH BALSDALKSDLAKSDLKASDKLASD
+                    <p>
+                        <button type="button" class="btn btn-default btn-lg">
+                            View</button>
+            </div>
+
+            <div class='service col-sm-12 col-md-4'>
+                <img src='img/travel.png'>
+                <h3>OTHER</h3>
+                <p>BLAH BALSDALKSDLAKSDLKASDKLASD
+                    <p>
+                        <button type="button" class="btn btn-default btn-lg">
+                            View</button>
+            </div>
+
         </div>
-
-        <div class='service col-sm-12 col-md-4'>
-            <img src='img/graduation-cap.png'>
-            <h3>Educacion</h3>
-            <p>BLAH BALSDALKSDLAKSDLKASDKLASD<p>
-              <button type="button" class="btn btn-default btn-lg">
-               View</button>
-        </div>
-
-        <div class='service col-sm-12 col-md-4'>
-            <img src='img/travel.png'>
-            <h3>OTHER</h3>
-            <p>BLAH BALSDALKSDLAKSDLKASDKLASD<p>
-              <button type="button" class="btn btn-default btn-lg">
-               View</button>
-        </div>
-
       </div>
     </section>
 
-  </div> <!------ end big container ---->
+
+
+    <section id='slider'>
+        <div class='container'>
+            <div class="track my-track">
+
+                <!-- SilverTrack requires only this part -->
+                <div class="view-port">
+                    <div class="slider-container">
+                        <div class="item">
+                            <img src="http://lorempixel.com/230/134/nature/2/">
+                        </div>
+                        <div class="item">
+                            <img src="http://lorempixel.com/230/134/nature/2/">
+                        </div>
+                        <div class="item">
+                            <img src="http://lorempixel.com/230/134/nature/1/">
+                        </div>
+                        <div class="item">
+                            <img src="http://lorempixel.com/230/134/nature/2/">
+                        </div>
+                        <div class="item">
+                            <img src="http://lorempixel.com/230/134/nature/1/">
+                        </div>
+                        <div class="item">
+                            <img src="http://lorempixel.com/230/134/nature/2/">
+                        </div>
+                        <div class="item">
+                            <img src="http://lorempixel.com/230/134/nature/1/">
+                        </div>
+                        <div class="item">
+                            <img src="http://lorempixel.com/230/134/nature/2/">
+                        </div>
+                        <div class="item">
+                            <img src="http://lorempixel.com/230/134/nature/1/">
+                        </div>
+                        <div class="item">
+                            <img src="http://lorempixel.com/230/134/nature/2/">
+                        </div>
+                        <div class="item">
+                            <img src="http://lorempixel.com/230/134/nature/1/">
+                        </div>
+                        <div class="item">
+                            <img src="http://lorempixel.com/230/134/nature/2/">
+                        </div>
+                        <div class="item">
+                            <img src="http://lorempixel.com/230/134/nature/1/">
+                        </div>
+                        <div class="item">
+                            <img src="http://lorempixel.com/230/134/nature/2/">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- My custom navigator links -->
+                <div class="pagination">
+                    <a href="#" class="prev disabled">
+                        <i class='glyphicon glyphicon-chevron-left'></i>
+                    </a>
+                    <a href="#" class="next disabled">
+                        <i class='glyphicon glyphicon-chevron-right'></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 
     <section id='contactus'>
 
     </section>
 
-    <!-- CONTAINER -->
 
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script>
+        var container = $(".my-track");
+        var track = container.find(".slider-container").silverTrack();
 
-  </body>
+        // install the plugins you want, in our case Navigator
+        track.install(new SilverTrack.Plugins.Navigator({
+            prev: $("a.prev", container),
+            next: $("a.next", container)
+        }));
+
+        track.start();
+    </script>
+
+</body>
+
 </html>

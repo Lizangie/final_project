@@ -65,7 +65,59 @@
   background-color: white;
 }
 
-.big-container {
-  width: 1000px;
-  margin: 0 auto 0 auto;
+
+/*-----slidesshowbar--------*/
+.view-port {
+  width:    100%;
+  overflow: hidden;
+  position: relative;
 }
+.slider-container {
+  position: relative;
+  height: 138px;
+  margin: 0;
+  padding: 0;
+}
+.item {
+  position: absolute;
+  width: 234px;
+  height: 138px;
+  margin-right: 8px
+}
+
+.track{
+    position: relative;
+    border: 1px solid #747474;
+    border-radius: 4px;
+}
+
+  .track .pagination .prev ,
+  .track .pagination .next{
+     position: absolute;
+     height:     65px;
+     background: white;
+     font-size:  50px;
+     border: 1px solid #747474;
+     color: #747474;
+     top:      calc( 50% - 32px);
+  }
+
+
+  .track .pagination .prev:hover,
+  .track .pagination .next:hover{
+      background: #EDEDED;
+  }
+
+  .track .pagination .prev{
+     left:     0;
+     padding-left: 10px;
+     border-radius: 0px 8px 8px 0px;
+     border-left: 0;
+  }
+
+  .track .pagination .next{
+    right:     0;
+    padding-right: 10px;
+    border-radius: 8px 0px 0px 8px;
+    border-right: 0;
+  }

@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link type='text/type' rel='stylesheet' href='css/stylesheet.css' />
 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="vendor/silver_track/lib/jquery-easing-1.3.0.js"></script>
@@ -25,7 +28,7 @@
 
 <body>
 
-    <nav class="navbar navbar-default my_nav">
+    <nav class="navbar navbar-default my_nav navbar-fixed-top">
 
         <div class="container">
 
@@ -39,7 +42,7 @@
                 <a class="navbar-brand" href="#">Brand</a>
             </div>
 
-            <div class="collapse navbar-collapse" id="main-menu">
+            <div class="collapse navbar-collapse navbar-right" id="main-menu">
                 <ul class="nav navbar-nav open-sans-600">
                     <li class=""> <a href='google.com'>Home</a></li>
                     <li> <a href='google.com'>Our Services</a></li>
@@ -51,9 +54,9 @@
         </div>
     </nav>
 
-
-        <!------ start big container ---->
+        <!-- start big container -->
         <section id='hero'>
+          <div class="container">
             <div class='row'>
                 <div id='hero-left' class='col-sm-5'>
 
@@ -64,60 +67,185 @@
 
                 </div>
                 <div id='hero-right' class='col-sm-7'>
-                    <img src='img/student.jpg' />
+                   <img src='img/student.jpg' />
                 </div>
-            </div>
+              </div>
+          </div>
+              <!--  <div class="jumbotron">
+                  <img src='img/student.jpg' />
+                  <h2> Services for the 21th Century</h2>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec imperdiet enim. Etiam mauris magna, mattis dictum urna vel, porttitor rhoncus lectus.
+                  </p>
+                </div>
+            </div> -->
 
         </section>
 
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <hr>
+            </div>
+          </div>
+        </div>
 
 
-    <div id='service-bar'>
-        <h2> Our Services </h2>
-    </div>
     <section id='services'>
         <div class='container'>
 
         <div class='row'>
 
+            <div class="col-md-12">
+              <div id='service-bar' class='bar'>
+                  <h2> Our Services </h2>
+              </div>
+            </div>
+
             <div class='service col-sm-12 col-md-4'>
                 <img src='img/book.png'>
-                <h3 class="open-sans-400">Tutorias</h3>
-                <p>sdfsdfdsfdsfdsfdsfdsf
-                    <p>
-                        <button type="button" class="btn btn-default btn-lg">
-                            View</button>
+                <h3 class="open-sans-400">Repasos</h3>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                        <!--<button type="button" class="btn btn-default btn-lg">
+                            View</button>-->
+                  <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">
+                    Read more
+                  </button>
+
+                  <!-- Modal Repasos -->
+                  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div> <!-- End Modal Repasos -->
+
             </div>
 
             <div class='service col-sm-12 col-md-4'>
                 <img src='img/graduation-cap.png'>
                 <h3>Educacion</h3>
-                <p>BLAH BALSDALKSDLAKSDLKASDKLASD
-                    <p>
-                        <button type="button" class="btn btn-default btn-lg">
-                            View</button>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+
+                      <!--  <button type="button" class="btn btn-default btn-lg">
+                            View</button>-->
+                            <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">
+                              Read more
+                            </button>
+
+                            <!-- Modal Education-->
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                    ...
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div> <!-- End Modal Education-->
             </div>
 
             <div class='service col-sm-12 col-md-4'>
                 <img src='img/travel.png'>
                 <h3>OTHER</h3>
-                <p>BLAH BALSDALKSDLAKSDLKASDKLASD
-                    <p>
-                        <button type="button" class="btn btn-default btn-lg">
-                            View</button>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                      <!--  <button type="button" class="btn btn-default btn-lg">
+                            View</button>-->
+                            <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">
+                              Read more
+                            </button>
+
+                            <!-- Modal others -->
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                    ...
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div> <!-- End Modal others-->
             </div>
 
         </div>
       </div>
     </section>
 
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+    </div>
 
+    <div id='discover-bar' class='bar'>
+        <h2> Discover </h2>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+
+          <!-- Tab panes PLAYLISTS-->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="education"><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLOGi5-fAu8bGiEvsxHyAvT8oIwkV8aOVk" frameborder="0" allowfullscreen></iframe></div>
+            <div role="tabpanel" class="tab-pane" id="social"><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLOGi5-fAu8bG_caX44GHP_MRS2K9xRNN5" frameborder="0" allowfullscreen></iframe></div>
+            <div role="tabpanel" class="tab-pane" id="technology"><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLOGi5-fAu8bFgv-Wiz8pfnQEHJNhyYusf" frameborder="0" allowfullscreen></iframe></div>
+            <div role="tabpanel" class="tab-pane" id="volunteer"><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLOGi5-fAu8bE-aLWVPo-bdb5DPats-yJx" frameborder="0" allowfullscreen></iframe></div>
+            <div role="tabpanel" class="tab-pane" id="bussiness"><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLOGi5-fAu8bFvyS3XtmQb2B-Mg4N_Eq4U" frameborder="0" allowfullscreen></iframe></div>
+            <div role="tabpanel" class="tab-pane" id="news"><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLOGi5-fAu8bGYH1AO4F7W5wcbZXtR1eAN" frameborder="0" allowfullscreen></iframe></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <!-- Nav tabs -->
+          <ul class="nav nav-pills nav-stacked" role="tablist">
+            <li role="presentation" class="active"><a href="#education" aria-controls="education" role="tab" data-toggle="tab">Education</a></li>
+            <li role="presentation"><a href="#social" aria-controls="social" role="tab" data-toggle="tab">Social</a></li>
+            <li role="presentation"><a href="#technology" aria-controls="technology" role="tab" data-toggle="tab">Technology and science</a></li>
+            <li role="presentation"><a href="#volunteer" aria-controls="volunteer" role="tab" data-toggle="tab">Volunteer</a></li>
+            <li role="presentation"><a href="#bussiness" aria-controls="bussiness" role="tab" data-toggle="tab">Bussiness</a></li>
+            <li role="presentation"><a href="#news" aria-controls="news" role="tab" data-toggle="tab">News</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <section id='slider'>
         <div class='container'>
-            <div class="track my-track">
+            <!-- <div class="track my-track">
 
-                <!-- SilverTrack requires only this part -->
+                SilverTrack requires only this part
                 <div class="view-port">
                     <div class="slider-container">
                         <div class="item">
@@ -165,7 +293,7 @@
                     </div>
                 </div>
 
-                <!-- My custom navigator links -->
+                My custom navigator links
                 <div class="pagination">
                     <a href="#" class="prev disabled">
                         <i class='glyphicon glyphicon-chevron-left'></i>
@@ -175,12 +303,66 @@
                     </a>
                 </div>
 
-            </div>
+            </div> -->
         </div>
     </section>
 
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+    </div>
 
     <section id='contactus'>
+      <div id='contact-bar' class='bar'>
+          <h2> Contact</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2> We love to hear from you!</h2>
+          <i class="fa fa-facebook"></i>
+        </div>
+
+        <div class="col-md-6">
+          <form class="form-horizontal" role="form" method="post" action="index.php">
+
+            <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="message" class="col-sm-2 control-label">Message</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" rows="4" name="message"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-10 col-sm-offset-2">
+                    <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+                </div>
+            </div>
+
+          </form>
+
+        </div>
+
+
+
+      </div>
 
     </section>
 

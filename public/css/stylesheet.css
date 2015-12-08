@@ -177,3 +177,11 @@ hr {
 .nav li.active a:focus{
   background-color: #016858;
 }
+
+/* Footer*/
+
+.footer{
+  color: white;
+padding: 1em;
+background-color:  #00796B;
+}

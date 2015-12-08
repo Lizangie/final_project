@@ -42,15 +42,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Brand</a>
+                <a class="navbar-brand" href="/">
+                  <img src="img/suma-t-logo.png">
+                </a>
             </div>
 
             <div class="collapse navbar-collapse navbar-right" id="main-menu">
                 <ul class="nav navbar-nav open-sans-600">
-                    <li class=""> <a href='google.com'>Home</a></li>
-                    <li> <a href='google.com'>Our Services</a></li>
-                    <li> <a href='google.com'>Contact</a></li>
-                    <li> <a href='google.com'>Testimonials</a></li>
+                    <li> <a href='#hero'>Home</a></li>
+                    <li> <a href='#services'>Our Services</a></li>
+                    <li> <a href='#slider'>Colleges</a></li>
+                    <li> <a href='#discover'>Discover</a></li>
+                    <li> <a href='#contactus'>Contact</a></li>
+
                 </ul>
             </div>
 
@@ -72,11 +76,11 @@
                     <p class='lead' style='font-size: 18px'>
                         on
                         <strong>Suma.T</strong>
-                        we help you prepare for the right way by giving you the tools to succeed on your new journey.
+                        We help you prepare for the right way by giving you the tools to succeed on your new journey.
                     </p>
 
                 </div>
-                <div id='hero-right' class='col-sm-7'>
+                <div id='hero-right' class='col-sm-7 image-home'>
                     <img src='img/student.jpg' />
                 </div>
             </div>
@@ -117,8 +121,7 @@
                     </h3>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                        with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
                     </p>
                     <!--<button type="button" class="btn btn-default btn-lg">
                             View</button>-->
@@ -156,8 +159,7 @@
                     </h3>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                        with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
                     </p>
 
                     <!--  <button type="button" class="btn btn-default btn-lg">
@@ -195,8 +197,7 @@
                     </h3>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                        with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
                     </p>
                     <!--  <button type="button" class="btn btn-default btn-lg">
                             View</button>-->
@@ -237,7 +238,7 @@
                 <h2> Colleges </h2>
             </div>
 
-            <p class='lead'>We have helped students to connect to get into all this colleges </p>
+            <p class='lead'>We have helped students to connect to get into all these colleges </p>
 
             <div class="track my-track">
 
@@ -263,6 +264,16 @@
                                 <img src="http://noticias.universia.pr/pr/images/logos%20instituciones/t/tu/tur/turabo_universiapr.jpg">
                             </a>
                         </div>
+                        <div class="item">
+                            <a href='http://www.albizu.edu/Inicio' target="_blank">
+                                <img src="https://pr.universianews.net/wp-content/uploads/sites/9/albizu-noticia-624x306.png">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href='http://www.pupr.edu/' target="_blank">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/PolytechnicUniversityofPuertoRicoLogo.jpg">
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -280,7 +291,7 @@
         </div>
     </section>
 
-    <div class="container">
+    <div class="container" id='discover'>
 
         <div id='discover-bar' class='bar'>
             <h2> Discover </h2>
@@ -328,58 +339,64 @@
     </div>
 
 
-    <div class="container">
-        <hr>
-    </div>
-    <div class="container">
-        <section id='contactus'>
-            <div id='contact-bar' class='bar'>
-                <h2> Contact</h2>
-            </div>
+
+    <div class="container">   <!--- start container --->
+
+      <div id='contact-bar' class='bar'>
+          <h2> Contact</h2>
+      </div>
+
+        <section id='contactus' style='padding:20px;'>
+
 
             <div class="row">
                 <div class="col-md-6">
-                    <h2> We love to hear from you!</h2>
+                  <h2 class='lead' style='font-size:2em'> We love to hear from you!</h2>
+                  <p>
+                    Use the following contact information or the form
+                    on the right to get in touch
+                  </p>
 
+                  <div>
+                      <i class='glyphicon glyphicon-earphone'></i>
+                      <strong>Phone:</strong> (787) 487-2495
+                  </div>
+                  <div>
+                      <i class='glyphicon glyphicon-envelope'></i>
+                      <strong>Email:</strong> suma.t@outlook.com
+                  </div>
                 </div>
 
                 <div class="col-md-6">
-                    <form class="form-horizontal" role="form" method="post" action="index.php">
 
-                        <div class="form-group">
-                            <label for="name" class="col-sm-2 control-label">Name</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
-                            </div>
-                        </div>
+                  <form id='contact_form' role="form" method="post">
 
-                        <div class="form-group">
-                            <label for="email" class="col-sm-2 control-label">Email</label>
-                            <div class="col-sm-10">
-                                <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
-                            </div>
-                        </div>
+                      <div class="form-group">
+                          <label for="name">Name</label>
+                          <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+                      </div>
 
-                        <div class="form-group">
-                            <label for="message" class="col-sm-2 control-label">Message</label>
-                            <div class="col-sm-10">
-                                <textarea class="form-control" rows="4" name="message"></textarea>
-                            </div>
-                        </div>
+                      <div class="form-group">
+                          <label for="email">Email</label>
+                          <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+                      </div>
 
-                        <div class="form-group">
-                            <div class="col-sm-10 col-sm-offset-2">
-                                <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-                            </div>
-                        </div>
+                      <div class="form-group">
+                          <label for="message" class="">Message</label>
+                          <textarea class="form-control" rows="4" name="message"></textarea>
+                      </div>
 
-                    </form>
+                      <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+
+                  </form>
 
                 </div>
 
 
+              </div>
 
-            </div>
+
+            </div> <!--- end container --->
 
         </section>
 
@@ -398,13 +415,18 @@
             track.start();
         </script>
 </div>
+
+
         <section class="footer">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <i class="fa fa-facebook"></i> Facebook
-              <i class="fa fa-twitter"></i> Twitter
-              <i class="fa fa-instagram"></i> Instagram
+              <ul>
+
+            <li><a href='https://www.facebook.com/SumaT-559698267505630/?ref=hl'><i class="fa fa-facebook"></i> Facebook</a></li>
+            <li><a href='https://twitter.com/Suma_T2015>'<i class="fa fa-twitter"></i> Twitter</li></a>
+            <li><a href='https://www.instagram.com/'<i class="fa fa-instagram"></i> Instagram</li></a>
+            </ul>
             </div>
           </div>
 

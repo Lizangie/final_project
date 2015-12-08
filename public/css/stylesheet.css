@@ -42,15 +42,25 @@ hr {
 
    border-top: 1px solid #CCC;
    margin-top: 35px;
+   background: #00796B;
+   margin-bottom: 1em;
 }
 
 .bar > h2 {
-  margin: 0 0 1em 0;
-  font-size: 50px;
+  margin: 0 0 0em 0;
+  font-size: 40px;
   text-align: left;
   font-family: "Open Sans" , sans-serif;
   text-shadow: 0px 3px 2px rgba(150, 150, 150, .5);
-  color: #222;
+  color: white;
+}
+
+
+.navbar-brand img{
+height:40px;
+position: relative;
+top: -8px;
+
 }
 
 #services{
@@ -119,18 +129,20 @@ hr {
   padding: 0;
 }
 .item {
+  border: 4px solid #ccc;
   box-sizing: border-box;
   padding: 10px;
   position: absolute;
-  width:  25%;
+  width:  200px;
   height: 125px;
   margin-right: 8px;
   text-align: center;
 }
 
 .item img{
-  height:  100%;
-  max-width: 100%:
+  margin:    0;
+  height:    100%;
+  max-width: 100%;
 }
 
 .track{
@@ -184,4 +196,25 @@ hr {
   color: white;
 padding: 1em;
 background-color:  #00796B;
+text-align: center;
+
+}
+.image-home{
+  padding-right: 50px;
+}
+
+.footer li{
+list-style: none;
+display:inline-block;
+padding: 5px;
+}
+
+.footer a{
+
+color: white;
+
+}
+.footer a:hover {
+color:#9E9E9E;
+text-decoration: none;
 }

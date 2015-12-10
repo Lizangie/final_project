@@ -18,7 +18,9 @@ hr {
   font-weight: 600;
 }
 
+section{
 
+}
 
 #hero{
   padding: 20px;
@@ -82,6 +84,7 @@ top: -8px;
 
   .service > p{
     text-align: center;
+    min-height: 130px;
   }
 
   .service > h3 {

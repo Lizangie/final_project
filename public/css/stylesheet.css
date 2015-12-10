@@ -124,7 +124,7 @@ top: -8px;
 }
 .slider-container {
   position: relative;
-  height: 125px;
+  height: 213px;
   margin: 0;
   padding: 0;
 }
@@ -133,8 +133,8 @@ top: -8px;
   box-sizing: border-box;
   padding: 10px;
   position: absolute;
-  width:  200px;
-  height: 125px;
+  width:  278px;
+  height: 213px;
   margin-right: 8px;
   text-align: center;
 }
@@ -149,7 +149,7 @@ top: -8px;
     position: relative;
     border: 1px solid #ccc;
     border-radius: 4px;
-    height: 125px;
+    height: 213px;
 }
 
   .track .pagination .prev ,
